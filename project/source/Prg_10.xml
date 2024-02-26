@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="14071.00"/>
+    <Version val="14090.00"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -14,6 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Cypher OUD" ISN_2="1" LastIsn="1" id="10">
+          <LastModified _date="738942" _time="68982" date="26/02/2024" time="19:09:42"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +28,6 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="737117" _time="57193" date="27-02-2019" time="15:53:13"/>
         </Header>
         <ItemIsn val="3"/>
         <Resource>
@@ -166,8 +166,18 @@
             <Event>
               <EventType val="S"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
+              <LogicLine>
+                <Update FlowIsn="7">
+                  <FieldID val="3"/>
+                  <WithValue val="1"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
               <LogicLine>
                 <Update FlowIsn="6">
                   <FieldID val="3"/>
